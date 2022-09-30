@@ -1,0 +1,20 @@
+Package: datapro
+Type: Package
+Title: Data Cleaning for Machine Learning
+Version: 0.1.0
+Authors@R: 
+    person("Arturo", "Bernal", , "abernal@data-pro.mx", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0001-9023-2742"))
+Description: Data cleaning for machine learning algorithms.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+URL: https://www.arturo-bernal.com/book/clean.html,https://github.com/datanalyticss/data_pro 
+BugReports: https://github.com/r-lib/devtools/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+   methods,
+    stats
